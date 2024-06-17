@@ -1,0 +1,108 @@
+Download VS Code:
+
+Visit the Visual Studio Code website.
+Download the .deb package suitable for Debian/Ubuntu.
+
+Install VS Code on Ubuntu:
+
+Open a terminal and navigate to the directory where the .
+
+deb package was downloaded:
+cd ~/Downloads
+
+Install the package using dpkg:
+sudo dpkg -i <package-file-name>.deb
+
+Replace <package-file-name> with the actual package file name.
+
+Resolve dependencies, if any, with:
+sudo apt-get install -f
+
+Launch VS Code by typing code in the terminal.
+
+First-time Setup
+
+Initial Configurations:
+
+Open VS Code and navigate to File > Preferences > Settings.
+
+Customize settings like editor.tabSize, editor.formatOnSave, and files.autoSave.
+
+Install extensions such as Debugger for Chrome for web development.
+
+
+User Interface Overview
+
+Components:
+
+Activity Bar: Provides quick access to different views (Explorer, Source Control, etc.).
+
+Side Bar: Contains views like File Explorer, Search, and Git integration.
+
+Editor Group: Where files are opened for editing.
+
+Status Bar: Displays information like line endings, indentation, and Git branch status.
+
+
+Command Palette
+
+Access: Use Ctrl+Shift+P.
+
+Examples:
+
+Git: Commit: Commit changes to Git.
+
+Preferences: Color Theme: Change the color theme.
+
+Tasks: Run Task: Execute configured tasks.
+
+
+Extensions in VS Code
+
+Role: Extend functionality (e.g., languages, debugging tools).
+
+Management: Accessible via Extensions view in the Activity Bar.
+
+Example Extensions: Live Server for web development, Python for Python support.
+
+
+Integrated Terminal
+
+Open: Use `Ctrl+``.
+
+Advantages:
+
+Access to CLI tools within VS Code.
+
+Seamless integration with tasks and Git commands.
+
+
+File and Folder Management
+
+Create/Open/Manage:
+
+Use Explorer view in Side Bar to navigate files and folders.
+
+File > Open Folder to open a specific folder.
+
+Ctrl+Click to open files.
+
+
+Settings and Preferences
+
+Customization:
+
+Navigate to File > Preferences > Settings.
+
+Customize workbench.colorTheme, editor.fontSize, and keybindings.json.
+
+
+Debugging in VS Code
+
+Setup:
+
+Install debugger extensions as needed.
+
+Set breakpoints in code.
+
+Start debugging with F5 or through the Debug menu.
